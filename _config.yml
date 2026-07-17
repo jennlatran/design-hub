@@ -1,0 +1,25 @@
+title: Design Hub
+description: Design team announcements and workflows for PMs and builders
+baseurl: "/design-hub"
+
+collections:
+  announcements:
+    output: true
+    permalink: /announcements/:path/
+  workflows:
+    output: true
+    permalink: /workflows/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: announcements
+    values:
+      layout: content
+  - scope:
+      path: ""
+      type: workflows
+    values:
+      layout: content
+
+markdown: kramdown

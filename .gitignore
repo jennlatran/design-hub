@@ -1,1 +1,5 @@
 .worktrees/
+_site/
+.jekyll-cache/
+.bundle/
+vendor/

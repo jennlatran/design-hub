@@ -2,6 +2,15 @@
 
 Date: 2026-07-17
 
+> **Superseded.** After drafting this design and starting on a Next.js/Prisma
+> implementation, it turned out to be significant overkill for the actual
+> ask: a page to publish announcements and workflow guidelines, hosted as a
+> GitHub link. What's actually built is a static Jekyll site (Markdown files
+> in `_announcements/` and `_workflows/`, served via GitHub Pages — see the
+> root `README.md`). No auth, no database, no admin UI, no API routes. This
+> doc and the implementation plans below are kept for history but do not
+> describe the current site.
+
 ## Purpose
 
 An internal site for the design team to publish announcements and to document
