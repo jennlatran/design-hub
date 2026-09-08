@@ -22,3 +22,5 @@ below to find out which track applies to your project.
      Google Chat channel and we'll help sort out the right path.
 
 Once you know your track, submit through [Submit a Request]({{ '/submit-a-request/' | relative_url }}).
+
+Prefer to browse all three tracks directly instead of the questions above? See the [full list]({{ '/workflows/' | relative_url }}).
