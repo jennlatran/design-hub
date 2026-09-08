@@ -5,6 +5,10 @@ title: Announcements
 
 <h1>Design Team Announcements</h1>
 
+<p class="callout">New here? Start with
+<a href="{{ '/workflows/engaging-with-design/' | relative_url }}">Engage with Design</a>
+to find out how to work with the design team on your project.</p>
+
 {% assign announcements = site.announcements | sort: "date" | reverse %}
 {% if announcements.size == 0 %}
   <p>No announcements yet.</p>
@@ -13,7 +17,10 @@ title: Announcements
 {% for post in announcements %}
 <article>
   <h2>{{ post.title }}</h2>
-  <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+  <p class="meta">
+    {{ post.date | date: "%B %-d, %Y" }}
+    {% if post.category %}<span class="badge">{{ post.category }}</span>{% endif %}
+  </p>
   {{ post.content }}
 </article>
 {% endfor %}
