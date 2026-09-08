@@ -32,7 +32,12 @@ title: Your Workflow Title
 Steps or guidance here.
 ```
 
-Commit and push — it'll appear on the [Workflows](/workflows/) page automatically.
+Commit and push — it'll appear on the [Workflows](/workflows/) listing page
+automatically. **That listing isn't linked from anywhere by default**, though
+(nav goes straight to [Find Your Track](/workflows/engaging-with-design/),
+the three-track decision page) — add a real link to your new page from
+`engaging-with-design.md` or another page people will actually find, or it'll
+sit there unreachable. Ask us how we know.
 
 ## Tagging an announcement as a design-system update
 
