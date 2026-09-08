@@ -34,6 +34,40 @@ Steps or guidance here.
 
 Commit and push — it'll appear on the [Workflows](/workflows/) page automatically.
 
+## Tagging an announcement as a design-system update
+
+Add `category: design-system` to an announcement's front matter to show a
+small badge next to its date:
+
+```markdown
+---
+title: New button variant available
+date: 2026-09-08
+category: design-system
+---
+```
+
+## Adding a Design System / Resources page
+
+These live as plain pages (not a Jekyll collection, since the set is small
+and fixed) under `design-system/` and `resources/`. Each needs explicit
+`permalink:` front matter to get a clean trailing-slash URL — see the
+existing files in those folders for the pattern.
+
+## Configuring the Submit a Request / Check Status embeds
+
+Both pages read embed URLs from their own front matter
+(`submit-a-request/index.md`, `check-status/index.md`) — once the Google
+Forms and Sheets exist, paste the embed URLs into that front matter and
+commit. No code change needed.
+
+- Forms: use each Form's own **Send → Embed `<>`** option to get the URL.
+- Sheets: use **File → Publish to web**, choosing the specific sheet/range,
+  and use the generated embed URL. Confirm with IT/Workspace admin that
+  Publish to web isn't disabled before doing this — it's a different
+  (unauthenticated-URL) sharing mechanism than normal mykaarma.com-restricted
+  sharing.
+
 ## Local preview (optional)
 
 GitHub Pages builds and serves the site automatically on push — you don't
