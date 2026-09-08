@@ -3,3 +3,8 @@ _site/
 .jekyll-cache/
 .bundle/
 vendor/
+
+# Local-only Jekyll dev environment (see README "Local preview") —
+# intentionally not committed; GitHub Pages builds server-side.
+Gemfile
+Gemfile.lock
