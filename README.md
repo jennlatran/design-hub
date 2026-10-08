@@ -1,4 +1,11 @@
-# Design Hub
+# Design Hub (archived)
+
+**This repo is archived.** It has been replaced by
+[`mykaarma/design-resources`](https://github.com/mykaarma/design-resources) — see
+[`PROCESS.md`](https://github.com/mykaarma/design-resources/blob/main/PROCESS.md) there for
+the current design engagement process, and the rest of that repo for other design resources.
+
+---
 
 A simple static site for the design team to publish announcements and
 document workflows for PMs and other builders. Built with Jekyll and hosted
